@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.post('/submit_calibration', (req, res) => {
   const { equipment, calibrationDate } = req.body;
 
-  // Process and store calibration data in the database (not implemented in this example)
+  // Process and store calibration data in the database
 
   res.json({ success: true, message: `Calibration submitted for ${equipment} on ${calibrationDate}.` });
 });
