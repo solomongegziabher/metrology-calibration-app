@@ -1,6 +1,4 @@
-# SoloCal
-
-
+# metrology-calibration-app
 # Navigate to the client folder
 cd client
 
